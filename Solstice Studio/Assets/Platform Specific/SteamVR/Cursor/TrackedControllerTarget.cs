@@ -87,6 +87,8 @@ public class TrackedControllerTarget : MonoBehaviour, TargetProvider {
 
 	void changeTarget(GameObject hitObject){
 		if(hitObject != targetObj){
+			if(targetObj)
+				unHighlightObj(targetObj);
 			if(hitObject){
 				targetObj = hitObject;
 				Bounds b = targetObj.GetComponent<Collider>().bounds;//debug
@@ -112,6 +114,12 @@ public class TrackedControllerTarget : MonoBehaviour, TargetProvider {
 		Highlighter highlight = (Highlighter) Object.GetComponentInParent(typeof(Highlighter));
 			if (highlight is Highlighter){
 				highlight.Highlight(Object);
+			}
+	}
+	void unHighlightObj(GameObject Object){
+		Highlighter highlight = (Highlighter) Object.GetComponentInParent(typeof(Highlighter));
+			if (highlight is Highlighter){
+				highlight.UnHighlight();
 			}
 	}
 }

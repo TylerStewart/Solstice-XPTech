@@ -1,0 +1,4624 @@
+Initialize engine version: 5.4.3f1 (01f4c123905a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     4058 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Solstice-XPTech\Solstice Studio\testbuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Solstice-XPTech\Solstice Studio\testbuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Solstice-XPTech\Solstice Studio\testbuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Solstice-XPTech\Solstice Studio\testbuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Solstice-XPTech\Solstice Studio\testbuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Solstice-XPTech\Solstice Studio\testbuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Solstice-XPTech\Solstice Studio\testbuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Solstice-XPTech\Solstice Studio\testbuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.121 seconds
+Platform assembly: D:\Solstice-XPTech\Solstice Studio\testbuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Solstice-XPTech\Solstice Studio\testbuild_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+ovr_Create(&m_session, &luid) failed: The given HMD doesn't exist.
+Failed to create Oculus Session.Compositor failed to initialize.ovr_Create(&m_session, &luid) failed: The given HMD doesn't exist.
+Failed to create Oculus Session.Compositor failed to initialize.OpenVR initialized!
+ 
+(Filename:  Line: 353)
+
+[VRDevice] Successfully created device OpenVR.
+UnloadTime: 0.510862 ms
+Model override is really only meant to be used in the scene view for lining things up; using it at runtime is discouraged.  Use tracked device index instead to ensure the correct model is displayed for all users.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connected to lighthouse:LHR-877B67C9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: dd8 -> priority: 1 
+  Thread -> id: 3694 -> priority: 1 
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SteamVR_Controller.Input (Int32 deviceIndex) [0x00000] in <filename unknown>:0 
+  at SteamVR_InputManager.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+OpenVR Shutdown
+ 
+(Filename:  Line: 707)
+
