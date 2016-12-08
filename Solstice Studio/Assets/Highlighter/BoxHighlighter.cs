@@ -16,6 +16,7 @@ public class BoxHighlighter : MonoBehaviour, Highlighter {
 			cornerPos[i] = Vector3.zero;
 			corners[i]= go;
 			go.transform.parent = cornerParent.transform;
+			corners[i].transform.localScale = this.transform.localScale;
 			go.SetActive(false);
 		}
 		corners[0].transform.rotation = Quaternion.Euler(0,180,-90);

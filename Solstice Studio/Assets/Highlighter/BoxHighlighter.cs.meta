@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 41a98492819ee6a46b62ad3b887b7c74
-timeCreated: 1480714518
+timeCreated: 1481143123
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - cornerPrefab: {fileID: 1000012862128922, guid: c09116c8d07d643429d2770a6122c185,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

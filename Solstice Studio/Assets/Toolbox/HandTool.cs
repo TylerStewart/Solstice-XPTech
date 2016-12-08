@@ -28,7 +28,7 @@ public class HandTool : MonoBehaviour {
 		releaseObject();//Unparent object from controller
 	}
 	void pickUpObject(){
-		if(targetProvider.targetObj){
+		if(targetProvider.targetObj && targetProvider.targetObj.tag=="WorldObj"){
 			targetProvider.targetObj.transform.parent = targetProvider.transform;
 			currentObject = targetProvider.targetObj;
 		}
