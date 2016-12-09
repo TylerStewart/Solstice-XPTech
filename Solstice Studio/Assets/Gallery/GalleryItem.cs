@@ -7,13 +7,18 @@ public class GalleryItem : MonoBehaviour {
 	public float spawnScale;
 	public Vector3 originalScale;
 	public Vector3 originalRotation;
+
 	// Use this for initialization
 	void Start () {
+		Renderer [] renders = GetComponentsInChildren<Renderer>();
+  		for(int i=0;i<renders.Length;i++){
+			  renders[i].material.renderQueue = 2002; // set their renderQueue
+		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
 
 	public void setPrefab(GameObject obj){
@@ -26,7 +31,6 @@ public class GalleryItem : MonoBehaviour {
 		MeshFilter meshFilter = go.GetComponent<MeshFilter>();
 		if(meshFilter){
 			Bounds bounds = meshFilter.mesh.bounds;
-			print(bounds.ToString());
 			float max = bounds.extents.x;
 			if (max < bounds.extents.y) 
 				max = bounds.extents.y;
@@ -35,6 +39,7 @@ public class GalleryItem : MonoBehaviour {
              
          float scale = (modelParent.transform.localScale.x) / max;
          go.transform.localScale = new Vector3(scale, scale, scale);
+		 go.GetComponent<Collider>().enabled=false;
 		}
 	}
 }

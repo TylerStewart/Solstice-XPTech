@@ -9,8 +9,8 @@ public class HandTool : MonoBehaviour {
 	TrackedControllerTarget targetProvider;
 	GameObject parentObj;
 	void OnEnable () {
-		SteamVR_InputManager.OnCursorHandTriggerPressDown += CursorTriggerPressDown;
-		SteamVR_InputManager.OnCursorHandTriggerPressUp += CursorTriggerPressUp;
+		SteamVR_InputManager.OnCursorHandTriggerPressDown += InputDown;
+		SteamVR_InputManager.OnCursorHandTriggerPressUp += InputUp;
 		targetProvider = FindObjectOfType<TrackedControllerTarget>();
 	}
 	
@@ -19,12 +19,12 @@ public class HandTool : MonoBehaviour {
 		
 	}
 
-	void CursorTriggerPressDown(){
+	void InputDown(){
 		releaseObject();//Unparent old object from controller
 		pickUpObject();//Parent new object to controller
 	}
 
-	void CursorTriggerPressUp(){
+	void InputUp(){
 		releaseObject();//Unparent object from controller
 	}
 	void pickUpObject(){
