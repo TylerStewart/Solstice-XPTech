@@ -11,7 +11,7 @@ public class VRCursor : MonoBehaviour
 		targetProvider = FindObjectOfType<TrackedControllerTarget>();
     }
 
-    private void LateUpdate()
+    private void Update()
     {
         Vector3 Position = targetProvider.Position;
         Vector3 Normal = targetProvider.Normal;
@@ -29,6 +29,7 @@ public class VRCursor : MonoBehaviour
             this.GetComponent<MeshFilter>().mesh = Provider.HoverCursor;			
         }
 		else
+        this.transform.localScale = new Vector3(1,1,1);
 			this.GetComponent<MeshFilter>().mesh = defaultMesh;
     }
 }

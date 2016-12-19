@@ -9,6 +9,10 @@ public class SteamVR_InputManager : MonoBehaviour {
 	//public static GameObject leftController, rightController;
 	GameObject cursorInstance;
 	public static GameObject cursorHand, offHand;
+	public Transform cursor;
+
+	public static Transform cursorTransform;
+
 	public delegate void CursorControllerUpdate();
 	public static event CursorControllerUpdate OnCursorHandGripPressDown,
 											OnCursorHandGripPressUp,
@@ -24,11 +28,13 @@ public class SteamVR_InputManager : MonoBehaviour {
 											OnOffHandTriggerPressUp;
 	
 	// Use this for initialization
-	void Start () {
+	void Awake () {
+		cursorTransform = cursor;
 		cursorHand = steamVRManager.right;
 		offHand = steamVRManager.left;
 		AssignCursorLocation();
 	}
+
 	
 	// Update is called once per frame
 	void Update () {
