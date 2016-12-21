@@ -30,9 +30,7 @@ public class ObjectGallery : MonoBehaviour {
 
 	void populateGallery(){
 		float spacing = (galleryWidth - galleryItemWidth * objectsPerRow) / (objectsPerRow + 1);
-		print (spacing);
 		float offsetFirstBy = spacing + galleryItemWidth/2;
-		print(offsetFirstBy);
 		float xOrigin = -galleryWidth/2 + offsetFirstBy;
 		float yOrigin = galleryHeight/2 - offsetFirstBy;
 		Vector3 itemPosition = new Vector3(xOrigin, yOrigin, -0.025f);

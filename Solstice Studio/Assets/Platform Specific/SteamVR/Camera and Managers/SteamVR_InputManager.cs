@@ -32,6 +32,9 @@ public class SteamVR_InputManager : MonoBehaviour {
 		cursorTransform = cursor;
 		cursorHand = steamVRManager.right;
 		offHand = steamVRManager.left;
+	}
+
+	void Start(){
 		AssignCursorLocation();
 	}
 
@@ -71,7 +74,7 @@ public class SteamVR_InputManager : MonoBehaviour {
 		}
 		
 		//offhand inputs 
-		var offHandDevice = SteamVR_Controller.Input((int)offHand.GetComponent<SteamVR_TrackedObject>().index);
+		/*var offHandDevice = SteamVR_Controller.Input((int)offHand.GetComponent<SteamVR_TrackedObject>().index);
 		if (offHandDevice.GetPressDown(SteamVR_Controller.ButtonMask.Grip))
 		{
 			if(OnOffHandGripPressDown != null)
@@ -81,7 +84,7 @@ public class SteamVR_InputManager : MonoBehaviour {
 		{
 			if(OnOffHandGripPressUp != null)
 				OnOffHandGripPressUp();
-		}
+		}*/
 	}
 
 	void AssignCursorLocation(){

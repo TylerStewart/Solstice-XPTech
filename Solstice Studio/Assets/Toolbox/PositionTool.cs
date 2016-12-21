@@ -9,7 +9,7 @@ public class PositionTool : Tool {
 	// Use this for initialization
 	protected override void Init(){
 		base.Init();
-		print(targetProvider.ToString());
+		//print(targetProvider.ToString());
 	}
 
 	protected override void Press(){
@@ -24,6 +24,8 @@ public class PositionTool : Tool {
 	}
 
 	void Update(){
+		targetProvider = FindObjectOfType<TrackedControllerTarget>();
+			print(targetProvider);
 		if(currentObject){
 			currentObject.transform.rotation = startRotation;
 		}
@@ -31,7 +33,6 @@ public class PositionTool : Tool {
 
 	void pickUpObject(){
 		if(targetProvider.targetObj && targetProvider.targetObj.tag=="WorldObj"){
-			//offset = targetProvider.targetObj.transform.position - targetProviderTransform.position;
 			startRotation = targetProvider.targetObj.transform.rotation;
 			targetProvider.targetObj.transform.parent = targetProviderTransform;
 			currentObject = targetProvider.targetObj;
