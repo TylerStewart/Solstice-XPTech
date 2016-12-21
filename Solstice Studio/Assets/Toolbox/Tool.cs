@@ -22,9 +22,6 @@ public class Tool : MonoBehaviour {
 			print(targetProvider);
 			cursorTransform = SteamVR_InputManager.cursorTransform;
 			targetProviderTransform = SteamVR_InputManager.cursorHand.transform;
-			if(this.enabled)
-				OnEnable();
-			//SteamVR_InputManager.Move += Move;
 		#endif
 	 }
 
@@ -35,6 +32,7 @@ public class Tool : MonoBehaviour {
 			SteamVR_InputManager.OnCursorHandTriggerPressDown += Press;
 			SteamVR_InputManager.OnCursorHandTriggerPressUp += Release;
 			SteamVR_InputManager.OnCursorHandGripPress += Hold;
+			
 			//SteamVR_InputManager.Move += Move;
 		#endif
 	}

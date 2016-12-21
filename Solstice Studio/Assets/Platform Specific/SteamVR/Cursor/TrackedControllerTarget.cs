@@ -91,8 +91,6 @@ public class TrackedControllerTarget : MonoBehaviour, TargetProvider {
 				unHighlightObj(targetObj);
 			if(hitObject){
 				targetObj = hitObject;
-				Bounds b = targetObj.GetComponent<Collider>().bounds;//debug
-				ObjName.text = b.extents.ToString();//debug
 				highlightObj(hitObject);
 			}
 			else{

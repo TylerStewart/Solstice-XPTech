@@ -11,7 +11,7 @@ public class GalleryInteraction : Tool {
 	// Update is called once per frame
 	void Update () {
 		if(currentObject)
-			currentObject.transform.eulerAngles = new Vector3 (rotation.x,rotation.y,rotation.z);
+			currentObject.transform.rotation = Quaternion.identity;
 	}
 
 	protected override void Press(){
@@ -27,10 +27,18 @@ public class GalleryInteraction : Tool {
 		if(targetProvider.targetObj && targetProvider.targetObj.tag=="GalleryObj"){
 			GalleryItem item = targetProvider.targetObj.GetComponent<GalleryItem>();
 			GameObject go = GameObject.Instantiate(item.objPrefab);
-			go.transform.position = targetProvider.HitInfo.transform.position;
-			go.transform.parent = targetProviderTransform;
-			go.transform.localScale = item.originalScale*StudioWorld.transform.localScale.x;
-			currentObject = go;
+			GameObject parent = new GameObject(go.name + "ParentObject");
+       
+			parent.transform.position = targetProvider.HitInfo.transform.position;
+			parent.transform.parent = targetProviderTransform;
+			parent.transform.rotation = Quaternion.identity;
+			go.transform.parent = parent.transform;
+			go.transform.localPosition = Vector3.zero;
+			parent.transform.localScale = item.originalScale*StudioWorld.transform.localScale.x;
+			Rigidbody rb = parent.AddComponent<Rigidbody>();
+			rb.useGravity = false;
+			rb.isKinematic = true;
+			currentObject = parent;
 			scale = item.originalScale;
 			rotation = item.originalRotation;
 		}
@@ -39,6 +47,7 @@ public class GalleryInteraction : Tool {
 	void releaseObject(){
 		if(currentObject){
 			currentObject.transform.parent = StudioWorld.transform;
+			currentObject.transform.localRotation = Quaternion.Euler(0,0,0);
 			currentObject.transform.localScale = scale;
 			currentObject.tag = "WorldObj";
 			currentObject=null;

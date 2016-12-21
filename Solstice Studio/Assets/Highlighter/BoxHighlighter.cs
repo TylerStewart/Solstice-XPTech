@@ -33,7 +33,9 @@ public class BoxHighlighter : MonoBehaviour, Highlighter {
 	void Update () {
 		if(currentObject){
 			if(currentObject.transform.hasChanged){
-				setCornerPos(currentObject.GetComponent<Collider>().bounds);
+				Collider col = currentObject.GetComponentInChildren<Collider>();
+				if(col)
+					setCornerPos(col.bounds);
 			}
 			for(int i=0; i<8; i++){
 				corners[i].transform.position = Vector3.Slerp(corners[i].transform.position, cornerPos[i], 0.5f);
@@ -45,11 +47,14 @@ public class BoxHighlighter : MonoBehaviour, Highlighter {
 		if(target == null){
 			return;	
 		}
+		
 		currentObject = target;
-		if(currentObject.GetComponent<Collider>()){
+		Collider col = currentObject.GetComponentInChildren<Collider>();
+		if(col){
+			print(col.bounds.ToString());
 			cornerParent.transform.position = target.transform.position;
-			Bounds b = target.GetComponent<Collider>().bounds;
-			setCornerPos(currentObject.GetComponent<Collider>().bounds);
+			Bounds b = col.bounds;
+			setCornerPos(b);
 			for(int i=0; i<8; i++){
 				corners[i].SetActive(true);
 			}

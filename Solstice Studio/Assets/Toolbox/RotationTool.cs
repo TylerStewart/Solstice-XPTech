@@ -18,10 +18,11 @@ public class RotationTool : Tool {
 		if(currentObject) { 
 		
 			Vector3 offsetVec = Vector3.Project(targetProviderTransform.position  - startingPosition, perpVec);
-			Debug.DrawLine(currentObject.transform.position, currentObject.transform.position + offsetVec, Color.red);
+			//Debug.DrawLine(currentObject.transform.position, currentObject.transform.position + offsetVec, Color.red);
+			Debug.DrawLine(currentObject.transform.position, currentObject.transform.position + axis*5, Color.red);
 			print(offsetVec);
 			//float offset = offsetVec.magnitude;
-			//currentObject.transform.rotation = startingRotation + Quaternion.AngleAxis;
+			currentObject.transform.localRotation =  Quaternion.AngleAxis(offsetVec.x*200, axis) * startingRotation ;
 		}
 	}
 
@@ -42,18 +43,15 @@ public class RotationTool : Tool {
 
 			CurrentWorldRotationOfTargetObject = currentObject.transform.rotation.eulerAngles;
 			startingPosition = targetProviderTransform.position;
+			startingRotation = currentObject.transform.localRotation;
 			axis = currentObject.transform.up;
 			targetProviderToObject = (targetProviderTransform.position) - currentObject.transform.position;
 			perpVec = Vector3.Cross(axis, targetProviderToObject);
-			Debug.Log("We're rotating");
-			//Debug.Log(CurrentWorldRotationOfTargetObject);
-			isRotating = true;
 		}
 	}
 
 	void stopRotation() 
 	{
 		currentObject=null;
-		Debug.Log("StopRotating!");
 	}
 }
