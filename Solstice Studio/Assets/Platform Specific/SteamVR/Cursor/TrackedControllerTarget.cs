@@ -72,10 +72,10 @@ public class TrackedControllerTarget : MonoBehaviour, TargetProvider {
 			Hit=true;
 			RaycastHit cursorLoc;
 			changeTarget(hitColliders[0].transform.gameObject);
-			Physics.Raycast(this.gameObject.transform.position, this.gameObject.transform.position-hitColliders[0].transform.position, out cursorLoc, directInteractionRadius);
+			Physics.Raycast(this.gameObject.transform.position, hitColliders[0].transform.position - this.gameObject.transform.position, out cursorLoc, 10.0f);
 			HitInfo = cursorLoc;
 			Normal = cursorLoc.normal;
-			Position = cursorLoc.point;
+			Position = hitColliders[0].transform.position;
 		}
 		else{
 			Hit = false;

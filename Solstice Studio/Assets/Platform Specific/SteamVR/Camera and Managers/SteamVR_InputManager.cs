@@ -25,13 +25,21 @@ public class SteamVR_InputManager : MonoBehaviour {
 											OnOffHandGripPressUp,
 											OnOffHanddGripPress,
 											OnOffHandTriggerPressDown,
-											OnOffHandTriggerPressUp;
+											OnOffHandTriggerPressUp,
+											OnOffHandMenuPressDown;
 	
 	// Use this for initialization
 	void Awake () {
 		cursorTransform = cursor;
-		cursorHand = steamVRManager.right;
-		offHand = steamVRManager.left;
+		getHands();
+	}
+
+	public static void getHands(){
+		if(cursorHand == null){
+			SteamVR_ControllerManager svrm = GameObject.Find("[CameraRig]").GetComponent<SteamVR_ControllerManager>();
+			cursorHand = svrm.right;
+			offHand = svrm.left;
+		}
 	}
 
 	void Start(){
@@ -74,7 +82,7 @@ public class SteamVR_InputManager : MonoBehaviour {
 		}
 		
 		//offhand inputs 
-		/*var offHandDevice = SteamVR_Controller.Input((int)offHand.GetComponent<SteamVR_TrackedObject>().index);
+		var offHandDevice = SteamVR_Controller.Input((int)offHand.GetComponent<SteamVR_TrackedObject>().index);
 		if (offHandDevice.GetPressDown(SteamVR_Controller.ButtonMask.Grip))
 		{
 			if(OnOffHandGripPressDown != null)
@@ -84,7 +92,12 @@ public class SteamVR_InputManager : MonoBehaviour {
 		{
 			if(OnOffHandGripPressUp != null)
 				OnOffHandGripPressUp();
-		}*/
+		}
+		if (offHandDevice.GetPressDown(SteamVR_Controller.ButtonMask.ApplicationMenu))
+		{
+			if(OnOffHandMenuPressDown != null)
+				OnOffHandMenuPressDown();
+		}
 	}
 
 	void AssignCursorLocation(){

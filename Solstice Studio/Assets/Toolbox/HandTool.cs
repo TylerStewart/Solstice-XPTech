@@ -7,8 +7,6 @@ public class HandTool : Tool {
 	// Use this for initialization
 	GameObject parentObj;
 	
-	// Update is called once per frame
-
 	protected override void Press(){
 		releaseObject();//Unparent old object from controller
 		pickUpObject();//Parent new object to controller
@@ -18,6 +16,7 @@ public class HandTool : Tool {
 		releaseObject();//Unparent object from controller
 	}
 	void pickUpObject(){
+		print(targetProvider.targetObj);
 		if(targetProvider.targetObj && targetProvider.targetObj.tag=="WorldObj"){
 			targetProvider.targetObj.transform.parent = targetProviderTransform;
 			currentObject = targetProvider.targetObj;

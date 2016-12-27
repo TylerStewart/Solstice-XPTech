@@ -11,13 +11,14 @@ public class RotationTool : Tool {
 	public float rotationAmount;
 	Vector3 startingPosition, axis, targetProviderToObject, perpVec;
 	Quaternion startingRotation;
+	float hitDist;
 	public bool isRotating;
 	
 	// Update is called once per frame
 	void Update () {
 		if(currentObject) { 
-		
-			Vector3 offsetVec = Vector3.Project(targetProviderTransform.position  - startingPosition, perpVec);
+			Vector3 offsetLoc = targetProviderTransform.forward * hitDist;
+			Vector3 offsetVec = Vector3.Project(offsetLoc - startingPosition, perpVec);
 			//Debug.DrawLine(currentObject.transform.position, currentObject.transform.position + offsetVec, Color.red);
 			Debug.DrawLine(currentObject.transform.position, currentObject.transform.position + axis*5, Color.red);
 			print(offsetVec);
@@ -37,7 +38,7 @@ public class RotationTool : Tool {
 	void startRotation() 
 	{
 		if(targetProvider.targetObj && targetProvider.targetObj.tag == "WorldObj"){
-			
+			hitDist = targetProvider.HitInfo.distance;
 			//GalleryItem item = targetProvider.targetObj.GetComponent<GalleryItem>();
 			currentObject = targetProvider.targetObj.gameObject;
 

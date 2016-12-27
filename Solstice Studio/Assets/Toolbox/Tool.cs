@@ -20,8 +20,10 @@ public class Tool : MonoBehaviour {
 		#else
 			targetProvider = FindObjectOfType<TrackedControllerTarget>();
 			print(targetProvider);
+			SteamVR_InputManager.getHands();
 			cursorTransform = SteamVR_InputManager.cursorTransform;
 			targetProviderTransform = SteamVR_InputManager.cursorHand.transform;
+
 		#endif
 	 }
 
@@ -56,5 +58,9 @@ public class Tool : MonoBehaviour {
 
 	void Move(){
 
+	}
+
+	public void test(){
+		print("TEST");
 	}
 }

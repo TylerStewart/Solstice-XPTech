@@ -25,7 +25,6 @@ public class PositionTool : Tool {
 
 	void Update(){
 		targetProvider = FindObjectOfType<TrackedControllerTarget>();
-			print(targetProvider);
 		if(currentObject){
 			currentObject.transform.rotation = startRotation;
 		}

@@ -51,7 +51,6 @@ public class BoxHighlighter : MonoBehaviour, Highlighter {
 		currentObject = target;
 		Collider col = currentObject.GetComponentInChildren<Collider>();
 		if(col){
-			print(col.bounds.ToString());
 			cornerParent.transform.position = target.transform.position;
 			Bounds b = col.bounds;
 			setCornerPos(b);

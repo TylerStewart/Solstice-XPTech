@@ -29,12 +29,13 @@ public class GalleryInteraction : Tool {
 			GameObject go = GameObject.Instantiate(item.objPrefab);
 			GameObject parent = new GameObject(go.name + "ParentObject");
        
-			parent.transform.position = targetProvider.HitInfo.transform.position;
+			parent.transform.position = targetProvider.Position;
 			parent.transform.parent = targetProviderTransform;
 			parent.transform.rotation = Quaternion.identity;
 			go.transform.parent = parent.transform;
 			go.transform.localPosition = Vector3.zero;
-			parent.transform.localScale = item.originalScale*StudioWorld.transform.localScale.x;
+			parent.transform.localScale = new Vector3(1,1,1);
+			go.transform.localScale = item.originalScale*StudioWorld.transform.localScale.x;
 			Rigidbody rb = parent.AddComponent<Rigidbody>();
 			rb.useGravity = false;
 			rb.isKinematic = true;
@@ -47,8 +48,6 @@ public class GalleryInteraction : Tool {
 	void releaseObject(){
 		if(currentObject){
 			currentObject.transform.parent = StudioWorld.transform;
-			currentObject.transform.localRotation = Quaternion.Euler(0,0,0);
-			currentObject.transform.localScale = scale;
 			currentObject.tag = "WorldObj";
 			currentObject=null;
 		}
