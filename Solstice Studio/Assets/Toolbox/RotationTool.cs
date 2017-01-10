@@ -21,7 +21,6 @@ public class RotationTool : Tool {
 			Vector3 offsetVec = Vector3.Project(offsetLoc - startingPosition, perpVec);
 			//Debug.DrawLine(currentObject.transform.position, currentObject.transform.position + offsetVec, Color.red);
 			Debug.DrawLine(currentObject.transform.position, currentObject.transform.position + axis*5, Color.red);
-			print(offsetVec);
 			//float offset = offsetVec.magnitude;
 			currentObject.transform.localRotation =  Quaternion.AngleAxis(offsetVec.x*200, axis) * startingRotation ;
 		}

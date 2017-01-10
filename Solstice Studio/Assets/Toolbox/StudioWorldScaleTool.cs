@@ -38,7 +38,6 @@ public class StudioWorldScaleTool : MonoBehaviour {
 				scaling = true;
 				distanceBetweenHandsPrev = distanceBetweenHands;
 				scalingStartDistance = distanceBetweenHands;
-				print(scalingStartDistance);
 			}
 			else{
 				float scaleBy = 1 + ((distanceBetweenHands-distanceBetweenHandsPrev)/scalingStartDistance)*scaleFactor;

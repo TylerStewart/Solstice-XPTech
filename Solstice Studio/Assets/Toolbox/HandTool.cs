@@ -16,7 +16,6 @@ public class HandTool : Tool {
 		releaseObject();//Unparent object from controller
 	}
 	void pickUpObject(){
-		print(targetProvider.targetObj);
 		if(targetProvider.targetObj && targetProvider.targetObj.tag=="WorldObj"){
 			targetProvider.targetObj.transform.parent = targetProviderTransform;
 			currentObject = targetProvider.targetObj;
